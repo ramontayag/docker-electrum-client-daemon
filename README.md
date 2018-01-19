@@ -10,6 +10,15 @@ Don't confuse with [Electrum server](https://github.com/spesmilo/electrum-server
 
 Star this project on Docker Hub :star2: https://hub.docker.com/r/osminogin/electrum-daemon/
 
+### Versioning
+
+It will follow the version of Electrum, with an extra number at the end to denote changes in this repository. If Electrum's version if `v3.0.5`, this will be:
+
+- `v3.0.5.0`
+- `v3.0.5.1`
+- `v3.0.5.2`
+- ...
+
 ### Ports
 
 * `7000` - JSON-RPC port.
@@ -17,7 +26,6 @@ Star this project on Docker Hub :star2: https://hub.docker.com/r/osminogin/elect
 ### Volumes
 
 * `/data` - usually on host it has a path ``/home/user/.electrum``.
-
 
 ## Getting started
 
